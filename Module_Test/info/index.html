@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office Application.</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body onload="getdata()">
+<section id="s1">
+<div class="top">IP Address : <span class='iper'></span></div>
+<div class="bottom">
+    <p class="lat"></p>
+    <p class="city"></p>
+    <p class="org"></p>
+    <p class="long"></p>
+    <p class="region"></p>
+    <p class="hostname"></p>
+</div>    
+</section>
+<section id="s2">
+    <p class="heading">Your Current Location</p>
+</section>
+<section id="s3">
+    <p id="he">More Information About You</p>
+    <p class="timezone"></p>
+    <p class="dateandtime"></p>
+    <p class="pincode"></p>
+    <p class="recmes"></p>
+</section>
+<section id="s4">
+    <p class="heading">Post Offices Near You</p>
+    <input type="text" placeholder="Search from Post Offices">
+    <div class="postalcont">
+
+    </div>
+</section>    
+<script src="./script.js"></script>    
+</body>
+</html>
